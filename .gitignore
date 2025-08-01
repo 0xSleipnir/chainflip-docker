@@ -1,7 +1,20 @@
 .env*
-ext-network.yml
+*.swp
+*.swo
+*.swn
+*.bak
+*.original
+custom.yml
 config/Settings.toml
 keys/*key*
 prometheus/custom-prom.yml
 promtail/custom-lokiurl.yml
-*.swp
+
+# Additional backup files from your migration
+*.backup
+*.backup/
+data.db.backup/
+keystore.backup/
+# Protect keystore directory (contains authorship keys)
+keystore/
+keystore/*

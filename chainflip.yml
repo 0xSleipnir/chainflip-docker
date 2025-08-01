@@ -33,7 +33,7 @@ services:
       - --log
       - ${LOG_LEVEL}
       - --database
-      - paritydb
+      - rocksdb
       - --sync
       - ${SYNC_MODE}
     labels:
