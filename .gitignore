@@ -9,7 +9,6 @@ config/Settings.toml
 keys/*key*
 prometheus/custom-prom.yml
 promtail/custom-lokiurl.yml
-
 # Additional backup files from your migration
 *.backup
 *.backup/
